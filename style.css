@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#divpai{
+    box-sizing: border-box;
+    width: 1520px;
+    height: 650px;
+    position: relative;
+    border: 1px solid black;
+    right: 0;
+    top: 0;
+}
+#topo{
+    display: flex;
+    width: 80%;
+    background-color: goldenrod;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    float:left;
+    box-sizing: content-box;
+}
+#enquete{
+    width: 20%;
+    background-color: rgb(115, 27, 178);
+    height: 750px;
+    float: right;
+    border-radius: 100px  rgb(63, 51, 51);
+    box-sizing: content-box;
+}
+
+#corpo{
+    width: 80%;
+    background-color:rgb(0, 0, 0);
+    height: 650px;
+    float: left;
+    box-sizing: content-box;
+}
+#rodape{
+    width: 80%;
+    height: 50px;
+    background-color:rgb(57, 10, 159);
+    float: left;
+    box-sizing: content-box;
+}
+
+p{
+    font-size: 20px;
+    height: 15px;
+    color: #ffffff;
+    margin: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+img{
+    display: flex;
+    top: 10;
+    margin-top: 50px;
+    border-radius: 5px #f4eded;
+    margin-right: 750px;
+    width: 300px;
+     height: 250px;
+     float: left;
+    border: transparent thin solid;
+    padding: 20px;
+    margin: 0px 10px 10px 0;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    display: flex;
+    top: 10;
+    margin-top: 50px;
+    border-radius: 5px #f4eded;
+    margin-left: 30px;
+    width: 210px;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+}
+
+#topo h2 {
+    color: white;
+}
+a{
+    top: 10px;
+    color: violet;
+    margin-left: 80px;
+    font-size: 20px;
+}
